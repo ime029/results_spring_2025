@@ -4,7 +4,7 @@ import pandas as pd
 @st.cache_data
 def load_data():
     # Load your cleaned Excel file
-    return pd.read_excel("cleaned_course_grades.xlsx")
+    return pd.read_excel("cleaned_course_grade.xlsx")
 
 # Load data
 df = load_data()
